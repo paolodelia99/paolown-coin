@@ -5,7 +5,7 @@ from vyper.interfaces import ERC20
 implements: ERC20
 
 MAX_SUPPLY: constant(uint256) = 1000000
-TOTAL_SUPPLY: constant(uint256) = 100000
+INIT_SUPPLY: constant(uint256) = 100000
 
 founder: address
 
@@ -26,11 +26,11 @@ event Approval:
 	value: uint256
 
 @external
-def __init__(beneficial: address):
-	self.totalSupply = TOTAL_SUPPLY
+def __init__(founder: address):
+	self.totalSupply = INIT_SUPPLY
 	self.name = "Paolown Coin"
 	self.symbol = "PLW"
-	self.founder = beneficial
+	self.founder = founder
 	self.balances[self.founder] = self.totalSupply
 
 @view
