@@ -1,8 +1,10 @@
 # Paolown Coin
 
-Here I made a smart contract in Vyper and brownie for my own coin.
+Here I made a smart contract in Vyper and Brownie for my own coin.
 
 **Disclaimer**: the contract hasn't been audited, do not use it production. I made it just for fun and learning how to write smart contract
+
+If you are more curious about how I have coded the smart contract it check out my [blog post](https://paolodelia99.github.io/blog/coding-a-smart-contract-with-vyper.html).
 
 # Quick start
 
@@ -29,10 +31,6 @@ If you also want to know the coverage then run:
 - [ERC20 openzeppelin implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/9b3710465583284b8c4c5d2245749246bb2e0094/contracts/token/ERC20/ERC20.sol)
 - [ERC20 API: An Attack Vector on Approve/TransferFrom Methods](https://docs.google.com/document/d/1YLPtQxZu1UAvO9cZ1O2RPXBbT0mooh4DYKjA_jp-RLM/edit)
 - [First blodio token implementaion](https://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol)
-
-# Todos
-
-- [refine tests](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/9b3710465583284b8c4c5d2245749246bb2e0094/test/token/ERC20/ERC20.test.js)
 
 # Author
 
